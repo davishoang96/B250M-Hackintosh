@@ -286,7 +286,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>darkwake=8</string>
+		<string>-v darkwake=8</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -296,7 +296,7 @@
 		<key>Legacy</key>
 		<string>LegacyBiosDefault</string>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>5</integer>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
