@@ -296,7 +296,7 @@
 		<key>Legacy</key>
 		<string>LegacyBiosDefault</string>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>5</integer>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
