@@ -119,13 +119,13 @@
 				<true/>
 				<key>AddPNLF</key>
 				<true/>
+				<key>FixDisplay</key>
+				<true/>
 				<key>FixHDA</key>
 				<true/>
 				<key>FixHPET</key>
 				<true/>
 			</dict>
-			<key>Name</key>
-			<string>DSDT.aml</string>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -288,7 +288,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>-v darkwake=8</string>
+		<string>darkwake=8 -disablegfxfirmware</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -395,6 +395,8 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
+		<key>LANInjection</key>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -582,6 +584,15 @@
 		<string>03010300FFFF0001</string>
 		<key>#ig-platform-id</key>
 		<string>0x01620005</string>
+		<key>Inject</key>
+		<dict>
+			<key>Intel</key>
+			<true/>
+		</dict>
+		<key>RadeonDeInit</key>
+		<false/>
+		<key>ig-platform-id</key>
+		<string>0x59120003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -904,21 +915,21 @@
 		<key>#Version</key>
 		<string>1.0</string>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>06/26/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.0151.B00.1708080034</string>
+		<string>IM183.88Z.0161.B00.1806260901</string>
 		<key>Board-ID</key>
 		<string>Mac-77F17D7DA9285301</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C027223104NDNJL1H</string>
+		<string>C02701403QXF502A8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>iMac18,2</string>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
 		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
@@ -928,7 +939,7 @@
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE136</string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -942,9 +953,9 @@
 		<key>ProductName</key>
 		<string>iMac18,2</string>
 		<key>SerialNumber</key>
-		<string>C02TTYZGJ1G5</string>
+		<string>C02T2QZGJ1G5</string>
 		<key>SmUUID</key>
-		<string>A495CC0A-F992-4D58-A005-1AAFEC55F634</string>
+		<string>8F6E580A-E732-46EF-880F-DE1A6AA39101</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
